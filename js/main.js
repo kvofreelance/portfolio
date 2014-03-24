@@ -117,7 +117,7 @@ $(function() {
                                 "</a>"+
                             "</div>"+
                             	"<div class='panel-body'>"+
-                                    "<a href='project-example.html'><h4 class='item-title'>"+jsonData.project_name+"</h4></a>"+
+                                    "<a href='project-example.html?file="+encodeURIComponent(filename)+"'><h4 class='item-title'>"+jsonData.project_name+"</h4></a>"+
                                     "<p class='item-category'><span style='color: black; font-style: normal;'>Platforms: </span>"+category_list+"</p>"+
                                     "<p class='item-description'>"+jsonData.short_description+"</p>"+
                                     "<hr>"+
