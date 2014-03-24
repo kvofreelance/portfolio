@@ -1,0 +1,14 @@
+{
+	"project_name":"",
+	"image_thumb":"",
+	"image_main":"",
+	"filter":["all", "native-ios|native-android|html5-mobile"],
+	"short_description":"This is short_description. Near 70 symbols",
+	"tags":["cordova","phonegap","ios","android","java","objective-c","sqlite"],
+	"full_description":"",
+	"images":[],
+	"links":[{
+		"link":"",
+		"image":""
+		}]
+}

@@ -1,0 +1,22 @@
+{
+	"project_name":"Qinity Blog",
+	"image_thumb":"img/project/qinity/thumb.jpeg",
+	"image_main":"",
+	"filter":"html5-mobile",
+	"categories":["iOS", "Android", "Cordova"],
+	"short_description":"This is short_description. Near 70 symbols.This is short_description. Near 70 symbols.This is short_description. Near 70 symbols",
+	"tags":["cordova","phonegap","ios","android","java","objective-c","sqlite"],
+	"full_description":"full description",
+	"images":[  "img/project/qinity/1.jpg", 
+				"img/project/qinity/2.jpg", 
+				"img/project/qinity/3.jpg", 
+				"img/project/qinity/4.jpg", 
+				"img/project/qinity/5.jpg", 
+				"img/project/qinity/6.jpg", 
+				"img/project/qinity/7.jpg"
+			 ],
+	"links":[{
+		"link":"",
+		"image":""
+		}]
+}

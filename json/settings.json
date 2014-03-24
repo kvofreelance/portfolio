@@ -1,0 +1,9 @@
+{
+	"title": "Beardapps",
+	"menu" : [{"name":"work",
+		"url":"index.html"},
+		{"name":"blog",
+		"url":"blog.html"},
+		{"name":"contact",
+		"url":"contact.html"}]
+}

@@ -1,0 +1,16 @@
+[{
+	"filter": "all",
+	"title": "All"
+},
+{
+	"filter": "print",
+	"title": "iOS"
+},
+{
+	"filter": "native-android",
+	"title": "Android"
+},
+{
+	"filter": "html5-mobile",
+	"title": "HTML5-based"
+}]
