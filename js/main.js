@@ -155,6 +155,7 @@ $(function() {
         $('#item-description').html(jsonData.full_description);
 
         console.log(jsonData);
+        document.title = jsonData.project_name;
       }
     }
 
