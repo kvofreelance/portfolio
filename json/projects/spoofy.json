@@ -1,0 +1,26 @@
+{
+	"project_name":"Spoofy",
+	"image_thumb":"img/project/spoofy/thumb.png",
+	"image_main":"",
+	"filter":"html5-mobile",
+	"categories":["iOS", "Android", "Cordova"],
+	"short_description":"Wanna spoof your friends? So try this app! Spoofy helps you send text messages from other numbers. ",
+	"tags":["cordova","ios","android","sencha touch","in-app purchase","yakoon sms api"],
+	"full_description":"Wanna spoof your friends? So try this app! Spoofy helps you send text messages from other numbers. For example: you just have to write telephone number, but your friend will see contact name(as he/she saved in his contact list)<br \\>It's so easy:<br \\>1) write a message <br \\>2) write your friend's number<br \\>3) and then write the sender's number whatever you want(phone number or some word).<br \\>You'll get 3 credits to have a try.<br \\>Support for SMS delivery to over 600 operators in 170 countries<br \\>For the moment Spoofy doesn't work in USA and Canada, but we'll fix it soon.",
+	"images":[  "img/project/spoofy/1.jpeg", 
+				"img/project/spoofy/2.jpeg", 
+				"img/project/spoofy/3.jpeg", 
+				"img/project/spoofy/4.jpeg",
+				"img/project/spoofy/5.jpeg"
+			 ],
+	"order":{ "pre_title":"It's my project ",
+			  "name":"",
+			  "link":""},
+	"links":[{
+		"link":"https://play.google.com/store/apps/details?id=com.beardapps.spoofy",
+		"image":"img/android.png"
+		}, {
+		"link":"https://itunes.apple.com/ua/app/spoofy-spoof-friends-via-sms/id654295299",
+		"image":"img/ios.png"
+		}]
+}

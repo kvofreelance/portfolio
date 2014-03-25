@@ -3,6 +3,13 @@
 $(function() {
     FastClick.attach(document.body);
 
+    var curr_lang = "";
+
+    var curr_lang = window.navigator.userLanguage || window.navigator.language;
+    if( curr_lang !=="uk" || curr_lang !=="ru") {
+      curr_lang = "en";
+    }
+
     // Load list of categories. (For portfolio)
     // ---------------
     // Example:
@@ -30,19 +37,22 @@ $(function() {
 		});
     }
 
-    $.fn.loadSiteName = function(){
+    $.fn.loadSiteData = function(){
     	var element = this;
-    	$.getJSON( "json/settings.json", function( data ) {
-		  $(element).html(data.title);
-		});
+    	$.getJSON( "json/settings"+curr_lang+".json", function( data ) {
+  		  $('#name > a ').html(data.title);
+        $.fn.loadNavBar(data.menu);
+        $.fn.loadFirstPage(data);
+        document.title = data.title_page;
+		  });
     }
 
-    $.fn.loadNavBar = function(){
-    	var element = this;
-    	$.getJSON( "json/settings.json", function( data ) {
+    $.fn.loadNavBar = function(data){
+    	var element = $('#navbar');
+
 		  var html = "<nav><ul class='list-inline' id='menu'>";
 		  var current_path = window.location.pathname.split('/').pop();
-		  $.each( data.menu, function( id, item ) {
+		  $.each( data, function( id, item ) {
 		  	if(current_path === item.url) {
 				html += "<li class=' active'><a href='"+item.url+"'>"+item.name+"</a></li>";
 		  	} else {
@@ -52,22 +62,34 @@ $(function() {
 		  html += "</ul></nav>"
 
 		  $(element).html(html);
-		});
+		
     }
 
-    $('#item-choice').loadCategories();
-    $('#name > a ').loadSiteName();
-    $('#navbar').loadNavBar();
+    $.fn.loadFirstPage = function(data) {
+      var startDescriptionHtml = "";
+      $.each( data.start_description, function( id, item ) {
+        startDescriptionHtml += "<h1>"+item+"</h1>";
+      });
+      $('#start-welcome').html(startDescriptionHtml);
+
+      $('#living').html(data.home);
+      $('#technology-desc').html(data.technology_desc);
+
+      var fullDescription = "";
+      $.each( data.full_description, function( id, item ) {
+        fullDescription += "<p>"+item+"</p>";
+      });
+      $('#full-description').html(fullDescription);
+    }
 
     $.fn.loadProjectsList = function(){
-    	$.getJSON( "json/projects-list.json", function( data ) {
+    	$.getJSON( "json/projects-list"+curr_lang+".json", function( data ) {
 
     	  var html = "";
 		  $.each( data, function( id, item ) {
 		  	var jsonData = $.fn.getSyncData(item);
 		  	var itemHtml = $.fn.createIntroProjectCard(jsonData, item);
 		  	html += itemHtml;
-		  	//console.log(itemHtml);
 		  });
 
 		  $('#Grid').html(html);
@@ -144,15 +166,22 @@ $(function() {
 
         var tagsHtml = "";
         $.each( jsonData.tags, function( id, item ) {
-          if(id == jsonData.tags.length) {
+          if(id == jsonData.tags.length-1) {
             tagsHtml += ("<a href='#'> "+item+"</a>");
           } else {
             tagsHtml += ("<a href='#'> "+item+"</a>,");
           }
         });
         $('#item-tags-full').html(tagsHtml);
-
         $('#item-description').html(jsonData.full_description);
+        $('#order').html("<br \\>"+jsonData.order.pre_title+"<a href='"+jsonData.order.link+"'>"+jsonData.order.name+"</a>");
+
+
+        var linksHtml = "";
+        $.each( jsonData.links, function( id, item ) {
+          linksHtml += "<a class='download-link' target='_blank' href='"+item.link+"'><img src='"+item.image+"' border='0' alt=''></a>";
+        });
+       $('#links-ext').html(linksHtml);
 
         console.log(jsonData);
         document.title = jsonData.project_name;
@@ -184,8 +213,20 @@ $(function() {
       return html;
     }
 
-   	$.fn.loadProjectsList();
-    $.fn.createFulldescription();
+    $.fn.loadScripts = function(lang) {
+      if (lang.localeCompare("en") != 0) {
+        curr_lang = "_"+lang;
+      } else {
+        curr_lang = "";
+      }
+
+      $('#item-choice').loadCategories();
+      $.fn.loadSiteData();
+      $.fn.loadProjectsList();
+      $.fn.createFulldescription();
+    }
+
+    $.fn.loadScripts(curr_lang);  	
 
 });
 

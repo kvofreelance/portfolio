@@ -109,6 +109,75 @@ ul.inline>li {
   padding-left: 5px;
   padding-right: 5px;
 }
+
+.portrait-img-area {
+  width: 160px;
+  margin: 0 auto;
+  position: relative;
+}
+.avatar {
+  width: 140px;
+}
+a.facebook {
+  left: -10px;
+  bottom: 0;
+  background: #2C92AC;
+  color: white;
+}
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.contact-logo {
+  width: 30px;
+  float: left;
+}
+.contact-text {
+  line-height: 30px;
+  padding-left: 35px;
+}
+.flag-image {
+  height: 10px;
+}
+.box-note {
+  position: relative;
+  max-width: 350px;
+  margin: 30px auto;
+  background: #249ebd;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 10px;
+}
+.box-note:after {
+  content: "";
+  border-top: 10px solid #249ebd;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  margin-left: -10px;
+  left: 50%;
+  bottom: -10px;
+}
+.download-link {
+  margin-right: 10px;
+  opacity: 0.8;
+}
+.download-link:hover, .download-link:active {
+  opacity: 1;
+}
+.item-description {
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3.6em;
+  line-height: 1.2em;
+}
+
 a.scroll-top img {
   width: 60px;
 }
@@ -522,7 +591,7 @@ body,
 }
 .panel.item .panel-heading {
   padding: 0;
-  background: #cccccc;
+  background: #ffffff;
 }
 .panel.item .panel-body {
   background: #fff;

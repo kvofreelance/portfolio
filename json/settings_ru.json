@@ -1,16 +1,16 @@
 {
 	"title": "Beardapps",
-	"title_page":"Welcome To My Portfolio - Vladimyr Kratyk",
-	"menu" : [{"name":"work",
+	"title_page":"Добро пожаловать к моему портфолио - Владимир Кратюк",
+	"menu" : [{"name":"Проекты",
 		"url":"index.html"},
-		{"name":"contact",
+		{"name":"Контакты",
 		"url":"contact.html"}],
 	"blocked" : [{"name":"blog",
 		"url":"blog.html"}],
-	"start_description": ["HELLO MY NAME IS VLADIMYR KRATYK.","I'M - FREELANCER"],
+	"start_description": ["Привет! Меня зовут Владимир Кратюк.","Я фрилансер"],
 	"full_description":["Over the last 7 years I have developed a lot of desktop, mobile(iOS/Android) and serverside applications for small business or private clients. I have a lot of experience in web - development also.",
 						"I have a good knowledge in programing and I can help you to develop your projects. I am a highly motivated and hard working person. Your tasks will be completed on time with 100% quality and accuracy.",
 						"Please contact me if you need any help of experienced programmer."],
-	"home":"Living in Ukraine",
-	"technology_desc":"TECHNOLOGIES WHICH I USE"
+	"home":"Проживаю в Украине",
+	"technology_desc":"Технологии, которые я использую"
 }

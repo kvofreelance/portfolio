@@ -1,9 +1,9 @@
 [{
 	"filter": "all",
-	"title": "All"
+	"title": "Все"
 },
 {
-	"filter": "native-ios",
+	"filter": "print",
 	"title": "iOS"
 },
 {

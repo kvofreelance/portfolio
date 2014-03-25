@@ -1,0 +1,23 @@
+{
+	"project_name":"Globus",
+	"image_thumb":"img/project/globus/thumb.png",
+	"image_main":"",
+	"filter":"native-ios",
+	"categories":["iOS"],
+	"short_description":"This program allows you to register and participate in the online community Globus.",
+	"tags":["ios","objective-c","background mode"],
+	"full_description":"This program allows you to register and participate in the online community Globus. When you first start the program asks the user to enter an existing username and password, or to register to participate in the community.",
+	"images":[  "img/project/globus/1.jpeg",
+				"img/project/globus/2.jpeg", 
+				"img/project/globus/3.jpeg", 
+				"img/project/globus/4.jpeg", 
+				"img/project/globus/5.jpeg"
+			 ],
+	"order":{ "pre_title":"Orders: ",
+			  "name":"Globus",
+			  "link":"https://globus-inter.com/index.php"},
+	"links":[{
+		"link":"https://itunes.apple.com/ua/app/globus/id684512212",
+		"image":"img/ios.png"
+		}]
+}

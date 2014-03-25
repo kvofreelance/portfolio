@@ -1,0 +1,22 @@
+{
+	"project_name":"Pyatnashki",
+	"image_thumb":"img/project/pyatnashki/thumb.png",
+	"image_main":"",
+	"filter":"native-android",
+	"categories":["Android"],
+	"short_description":"Pyatnashki Xmas Lite is a Christmas themed version of well known game “puzzle fifteen” with different level difficulty.",
+	"tags":["java","android","admob sdk"],
+	"full_description":"Pyatnashki Xmas Lite is a Christmas themed version of well known game “puzzle fifteen” with different level difficulty. Goal of the game is complete image by moving its separate parts. Main characters of this version of game are heroes of holiday.<br \\>Features:<br \\>* Wonderful Christmas heroes<br \\>* Realistic snowfall on the background<br \\>* All pictures were painted by professional artist, and you can share it with your friends via social networks<br \\>* Designed for both Tablets and Phones",
+	"images":[  "img/project/pyatnashki/1.png", 
+				"img/project/pyatnashki/2.png", 
+				"img/project/pyatnashki/3.png", 
+				"img/project/pyatnashki/4.png"
+			 ],
+	"order":{ "pre_title":"It's my project",
+			  "name":"",
+			  "link":""},
+	"links":[{
+		"link":"https://play.google.com/store/apps/details?id=com.pyatnashki.pyatnashki.xmaslite",
+		"image":"img/android.png"
+		}]
+}

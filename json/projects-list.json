@@ -1,3 +1,7 @@
 [
-	"json/projects/qinity.json"
+	"json/projects/qinity.json",
+	"json/projects/uapress.json",
+	"json/projects/pyatnashki.json",
+	"json/projects/spoofy.json",
+	"json/projects/globus.json"
 ]

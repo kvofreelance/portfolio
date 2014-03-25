@@ -4,9 +4,9 @@
 	"image_main":"",
 	"filter":"html5-mobile",
 	"categories":["iOS", "Android", "Cordova"],
-	"short_description":"This is short_description. Near 70 symbols.This is short_description. Near 70 symbols.This is short_description. Near 70 symbols",
-	"tags":["cordova","phonegap","ios","android","java","objective-c","sqlite","sencha touch"],
-	"full_description":"full description",
+	"short_description":"Qinity - a popular blog about the world of high technology and internet marketing.",
+	"tags":["cordova","ios","android","sencha touch"],
+	"full_description":"Qinity - a popular blog about the world of high technology and internet marketing. Now we are surrounded by an ocean of computers, gadgets, networks and communications. We live in a world of high technology, and to keep pace with the times you just need to keep abreast of new trends. We learn and share with you the most interesting and important news.",
 	"images":[  "img/project/qinity/1.jpg", 
 				"img/project/qinity/2.jpg", 
 				"img/project/qinity/3.jpg", 
@@ -15,8 +15,14 @@
 				"img/project/qinity/6.jpg", 
 				"img/project/qinity/7.jpg"
 			 ],
+	"order":{ 	"pre_title":"Orders: ",
+				"name":"Qinity",
+			 	"link":"http://qinity.com"},
 	"links":[{
-		"link":"",
-		"image":""
+		"link":"https://play.google.com/store/apps/details?id=com.qinity.blog",
+		"image":"img/android.png"
+		}, {
+		"link":"https://itunes.apple.com/hk/app/qinity/id794303559?mt=8",
+		"image":"img/ios.png"
 		}]
 }

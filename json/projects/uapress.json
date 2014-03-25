@@ -1,0 +1,25 @@
+{
+	"project_name":"UA press",
+	"image_thumb":"img/project/uapress/thumb.png",
+	"image_main":"",
+	"filter":"html5-mobile",
+	"categories":["iOS", "Android", "Cordova"],
+	"short_description":"News application from Internet publishing \"Press of Ukraine\", timely and reliable source of information in Ukraine. ",
+	"tags":["cordova","ios","android","sencha touch"],
+	"full_description":"News application from Internet publishing <a href='http://uapress.info/' blank='_target'>Press of Ukraine</a>, timely and reliable source of information in Ukraine.<br \\>Get instant access to the latest news:<br \\>- News of the economy, politics, environment, sports, science, culture and show business<br \\>- Comments and analytics<br \\>- Author's articles",
+	"images":[  "img/project/uapress/2.png", 
+				"img/project/uapress/3.png", 
+				"img/project/uapress/4.png", 
+				"img/project/uapress/5.png"
+			 ],
+	"order":{ "pre_title":"Orders: ",
+			  "name":"Press of Ukraine",
+			  "link":"http://uapress.info"},
+	"links":[{
+		"link":"https://play.google.com/store/apps/details?id=com.beardapps.uapress",
+		"image":"img/android.png"
+		}, {
+		"link":"https://itunes.apple.com/ru/app/pressa-ukrainy/id694131072",
+		"image":"img/ios.png"
+		}]
+}
