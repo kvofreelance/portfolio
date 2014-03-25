@@ -1,0 +1,26 @@
+{
+	"project_name":"Kitoss",
+	"image_thumb":"img/project/kitoss/thumb.png",
+	"image_main":"",
+	"filter":"html5-mobile",
+	"categories":["iOS", "Android", "Cordova"],
+	"short_description":"KITOSS - social network for communication and finding new friends. ",
+	"tags":["cordova","ios","android","javascript"],
+	"full_description":"KITOSS - social network for communication and finding new friends. Upload your photos, participate in contests, chat live online exchange for cash prizes. Give each other animated gifts and more.",
+	"images":[  "img/project/kitoss/1.png",
+				"img/project/kitoss/2.png", 
+				"img/project/kitoss/3.png", 
+				"img/project/kitoss/4.png", 
+				"img/project/kitoss/5.png"
+			 ],
+	"order":{ "pre_title":"Orders: ",
+			  "name":"Kitoss.ru",
+			  "link":"http://kitoss.ru"},
+	"links":[{
+		"link":"https://play.google.com/store/apps/details?id=com.makeomatic.kitoss",
+		"image":"img/android.png"
+		}, {
+		"link":"",
+		"image":"img/ios.png"
+		}]
+}
