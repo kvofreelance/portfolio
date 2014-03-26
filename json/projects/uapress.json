@@ -6,7 +6,7 @@
 	"categories":["iOS", "Android", "Cordova"],
 	"short_description":"News application from Internet publishing \"Press of Ukraine\", timely and reliable source of information in Ukraine. ",
 	"tags":["cordova","ios","android","sencha touch"],
-	"full_description":"News application from Internet publishing <a href='http://uapress.info/' blank='_target'>Press of Ukraine</a>, timely and reliable source of information in Ukraine.<br \\>Get instant access to the latest news:<br \\>- News of the economy, politics, environment, sports, science, culture and show business<br \\>- Comments and analytics<br \\>- Author's articles",
+	"full_description":"News application from Internet publishing <a href='http://uapress.info/' target='_blank'>Press of Ukraine</a>, timely and reliable source of information in Ukraine.<br \\>Get instant access to the latest news:<br \\>- News of the economy, politics, environment, sports, science, culture and show business<br \\>- Comments and analytics<br \\>- Author's articles",
 	"images":[  "img/project/uapress/2.png", 
 				"img/project/uapress/3.png", 
 				"img/project/uapress/4.png", 
