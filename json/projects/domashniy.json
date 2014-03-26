@@ -1,0 +1,26 @@
+{
+	"project_name":"Domashniy",
+	"image_thumb":"img/project/domashniy/thumb.png",
+	"image_main":"",
+	"filter":"html5-mobile",
+	"categories":["iOS", "Android", "Cordova"],
+	"short_description":"Encyclopedia quality of life for every woman with Domashniy.ru! Official portal application <a href=\"http://www.domashniy.ru/\">Domashniy.ru</a>",
+	"tags":["cordova","ios","android","javascript"],
+	"full_description":"Encyclopedia quality of life for every woman with <a href=\"http://www.domashniy.ru/\">Domashniy.ru</a>!<br \\>Official portal application <a href=\"http://www.domashniy.ru/\">Domashniy.ru</a>:<br \\>- Ability to watch free TV shows and serials all Channel Home \" Sweet stories \", \" One for all \", \" Bang Bang Wardrobe \" and many more await you ;<br \\>- Alexander Seleznev, Timur Guchkaev Mark Statcenko and other stars of Home : interviews, exclusive footage , photos, expert opinion ;<br \\>- Relationships: Love and sex , marriage, psychology , parenting, star , horoscope ;<br \\>- Beauty : fashion , style, beauty , cosmetology , hair , shopping ;<br \\>- Interests: education, career , interior design , decor , hobbies, travel , poster cultural life;<br \\>- Cooking : Recipes for soups, baking recipes , recipes from meat, fish recipes , recipes , quick recipes , recipes star .",
+	"images":[  "img/project/domashniy/1.jpeg",
+				"img/project/domashniy/2.jpeg", 
+				"img/project/domashniy/3.jpeg", 
+				"img/project/domashniy/4.jpeg", 
+				"img/project/domashniy/5.jpeg"
+			 ],
+	"order":{ "pre_title":"Orders: ",
+			  "name":"Makeomatic",
+			  "link":"http://makeomatic.ru/"},
+	"links":[{
+		"link":"https://play.google.com/store/apps/details?id=com.fm.domashniy",
+		"image":"img/android.png"
+		}, {
+		"link":"https://itunes.apple.com/us/app/domasnij/id771657538",
+		"image":"img/ios.png"
+		}]
+}
